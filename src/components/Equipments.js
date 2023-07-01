@@ -50,7 +50,7 @@ export default function BestSellers() {
             {
                 key:"6",
                 images:"./images/anklets.jpg",
-                title:"Ankle Weights,0.9-4.5kg Adjustable Ankle Weights Wrist Straps",
+                title:"Ankle Weights of 0.9-4.5kg Adjustable Ankle Weights Wrist Straps",
                 price:"1524 INR",
                 sale:"",
                 desc:"Ideal for Fitness Walking Running Jogging Exercise Gym Workout||Men&Women Kids||2.3kg Each,4.5kg Pair"
