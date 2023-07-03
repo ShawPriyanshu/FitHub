@@ -1,10 +1,10 @@
 import React from 'react'
-
+import img1 from './../images/FitHublogo.png'
 
 export default function About() {
     return (
         <div>
-            <div className="about-body" style={{ letterSpacing: "2px", position: "relative", backgroundImage: "url('./images/FitHub logo.png')", backgroundSize: "cover", backgroundAttachment: "fixed", objectFit: "contain", height: "auto", paddingTop: "40px", margin: "0px" }}>
+            <div className="about-body" style={{ letterSpacing: "2px", position: "relative", backgroundSize: "cover", backgroundAttachment: "fixed", objectFit: "contain", height: "auto", paddingTop: "40px", margin: "0px" }}>
                 <div className="abouthead pt-5"><h1>GET TO KNOW <span style={{ color: "transparent", WebkitTextStrokeColor: "white", WebkitTextStrokeWidth: "1px" }}>ABOUT</span> US</h1></div>
                 <div className="container px-4 py-5 my-0" id="hanging-icons" style={{ backdropFilter: "blur(5px)", marginTop: "20px", color: "white" }}>
                     <h1 className="pb-2 border-bottom" style={{ textAlign: "center", fontStyle: "italic" }}>EXPLORE OUR <span className="programs" style={{ color: "transparent", WebkitTextStrokeColor: "white", WebkitTextStrokeWidth: "1px" }}>PROGRAMS</span></h1>
@@ -56,7 +56,7 @@ export default function About() {
                             <ul className="list">
                                 <li><span className="material-symbols-outlined"  style={{ color: "#52307c", fontSize: "40px" }}>
                                     check_circle
-                                </span><span>OVER 140+ EXPERT TRAINERS</span></li>
+                                </span><span>140+ EXPERT TRAINERS</span></li>
                                 <li><span className="material-symbols-outlined"  style={{ color: "#52307c", fontSize: "40px" }}>
                                     check_circle
                                 </span><span>OVER 600+ EQUIPMENTS</span></li>
@@ -71,7 +71,7 @@ export default function About() {
                                 </span><span>100+ OFFLINE GYMNASIUMS</span></li>
                                 <li><span className="material-symbols-outlined"  style={{ color: "#52307c", fontSize: "40px" }}>
                                     check_circle
-                                </span><span>ASSOCIATION WITH RELIABLE PARTNERS</span></li>
+                                </span><span>RELIABLE PARTNERS</span></li>
                             </ul>
                         </div>
                     </div>

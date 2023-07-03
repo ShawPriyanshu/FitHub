@@ -1,27 +1,30 @@
 import React, { useState } from 'react'
 import Partners from './Partners'
+import img1 from './../images/leftarrow.png'
+import img2 from './../images/rightarrow.png'
+
 
 export default function Testtimonials() {
     const [selected, setSelected] = useState(0);
 
     const testimonials = [
         {
-            image: './images/person1.jpg',
+            image: require('./../images/person1.jpg'),
             review: "xb b xv ipsum dolor sit amet, consectetur adipisicing elit. Expedita, necessitatibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, necessitatibus.",
             name: "Elizabeth Margaret"
         },
         {
-            image: './images/person2.jpg',
+            image: require('./../images/person2.jpg'),
             review: "sgbf ipsum dolor sit amet, consectetur adipisicing elit. Expedita, necessitatibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, necessitatibus.",
             name: "Kevin Hart"
         },
         {
-            image: './images/person3.jpg',
+            image: require('./../images/person3.jpg'),
             review: "yuhvc ipsum dolor sit amet, consectetur adipisicing elit. Expedita, necessitatibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, necessitatibus.",
             name: "John Abraham"
         },
         {
-            image: './images/person4.jpg',
+            image: require('./../images/person4.jpg'),
             review: "wsdf ipsum dolor sit amet, consectetur adipisicing elit. Expedita, necessitatibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, necessitatibus.",
             name: "Ankit Malhotra"
         }
@@ -43,10 +46,10 @@ export default function Testtimonials() {
                     <div></div>
                     <img src={testimonials[selected].image} alt="" />
                     <div className="arrows">
-                       <img src="./images/leftarrow.png" alt="" onClick={()=>{
+                       <img src={img1} alt="" onClick={()=>{
                         selected===0?setSelected(len-1):setSelected((prev)=>prev-1)
                        }}/>
-                        <img src="./images/rightarrow.png" alt="" onClick={()=>{
+                        <img src={img2} alt="" onClick={()=>{
                         selected===len-1?setSelected(0):setSelected((prev)=>prev+1)
                        }}/>
                     </div>

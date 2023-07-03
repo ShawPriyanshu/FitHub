@@ -6,11 +6,12 @@ import Categories from './components/Categories'
 import About from './components/About'
 import Testtimonials from './components/Testtimonials';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
-  Link
+ 
 } from "react-router-dom";
+import Equipments from './components/Equipments';
 
 
 
@@ -23,9 +24,10 @@ function App() {
   <Switch>
           <Route exact path="/">
           <Hero/>
+          
           </Route>
-          <Route exact path="/categories">
-        <Categories/>
+          <Route path="/categories">
+          <Categories/>
           </Route>
           <Route exact path="/about">
         <About/>

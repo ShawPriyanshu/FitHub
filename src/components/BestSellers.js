@@ -5,7 +5,7 @@ export default function BestSellers() {
           const [data,setData]=useState([
             {
                 key:"1",
-                images:"./images/dumbbells.jpg",
+                images:require("./../images/dumbbells.jpg"),
                 title:"6 IN 1 ADJUSTABLE DUMBBELLS AND BARBELLS",
                 price:"6999 INR",
                 sale:"More than 200 customers are buying this product every quarter",
@@ -13,7 +13,7 @@ export default function BestSellers() {
             },
             {
                 key:"2",
-                images:"./images/treadmill.jpg",
+                images:require("./../images/treadmill.jpg"),
                 title:"CO-FIT 3205CB HOME TREADMILL",
                 price:"35999 INR",
                 sale:"More than 150 customers are buying this product every quarter",
@@ -21,7 +21,7 @@ export default function BestSellers() {
             },
             {
                 key:"3",
-                images:"./images/boxingbag.jpg",
+                images:require("./../images/boxingbag.jpg"),
                 title:"FitHub EverLast Unfilled Boxing-Bag",
                 price:"599 INR",
                 sale:"More than 500 customers are buying this product every quarter",
@@ -29,7 +29,7 @@ export default function BestSellers() {
             },
             {
                 key:"4",
-                images:"./images/probar.jpg",
+                images:require("./../images/probar.jpg"),
                 title:"GetMyMettle ASSORTED PROTEIN BARS(Pack of 6)",
                 price:"439 INR",
                 sale:"More than 650 cutomers are buying this product every quarter",
@@ -37,7 +37,7 @@ export default function BestSellers() {
             },
             {
                 key:"5",
-                images:"./images/whey.jpg",
+                images:require("./../images/whey.jpg"),
                 title:"GOLD STANDARD 100% WHEY",
                 price:"5999 INR",
                 sale:"More than 500 customers are buying this product every quarter",
@@ -45,7 +45,7 @@ export default function BestSellers() {
             },
             {
                 key:"6",
-                images:"./images/anklets.jpg",
+                images:require("./../images/anklets.jpg"),
                 title:"Ankle Weights,0.9-4.5kg Adjustable Ankle Weights Wrist Straps",
                 price:"1524 INR",
                 sale:"More than 200 customers are buying this product every quarter",

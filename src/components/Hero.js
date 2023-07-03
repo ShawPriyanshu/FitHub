@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import Typical from 'react-typical'
 import emailjs from '@emailjs/browser'
+import img1 from './../images/builder.png'
 
 export default function Hero() {
         const form=useRef()
@@ -57,7 +58,7 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="right-h" style={{ backdropFilter: "blur(5px)" }}>
-                    <img src="./images/builder.png" alt="" className="hero_image" />
+                    <img src={img1} alt="" className="hero_image" />
                     <div className="connect">
                         <ul className="sci" type="none">
                             <li><a href="https://www.facebook.com/priyanshu.shaw.9404/" target="_blank" ><i className="fa fa-facebook" aria-hidden="true"></i></a></li>

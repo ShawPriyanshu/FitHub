@@ -291,7 +291,9 @@
   height: 30rem;
   left: 0%;
 }
-
+.about-body{
+  background-image: url('./../src/images/FitHublogo.png');
+}
 .connect {
   display: flex;
   flex-direction: column;
@@ -633,6 +635,18 @@
 
 }
 .bestseller
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.diet
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.equipment
 {
   display: flex;
   flex-wrap: wrap;

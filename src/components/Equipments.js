@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import Items from './Items'
 
-export default function BestSellers() {
+export default function Equipments() {
           const [data,setData]=useState([
             {
                 key:"1",
-                images:"./images/peddlar.jpg",
+                images:require("./../images/peddlar.jpg"),
                 title:"Sparnod Fitness SMB-100 Mini Cycle Pedal Exerciser",
                 price:"1699 INR",
                 sale:"Easy to Use || Portable and Easy to Fold",
@@ -13,7 +13,7 @@ export default function BestSellers() {
             },
             {
                 key:"2",
-                images:"./images/parbar.jpg",
+                images:require("./../images/parbar.jpg"),
                 title:"Single Parallel Bars,multifunctional Indoor Fitness Equipment Horizontal Bar",
                 
                 price:"29999 INR",
@@ -22,7 +22,7 @@ export default function BestSellers() {
             },
             {
                 key:"3",
-                images:"./images/tot.jpg",
+                images:require("./../images/tot.jpg"),
                 title:"Total Gym APEX",
                 
                 price:"55999 INR",
@@ -31,7 +31,7 @@ export default function BestSellers() {
             },
             {
                 key:"4",
-                images:"./images/pullup.jpg",
+                images:require("./../images/pullup.jpg"),
                 title:"ONETWOFIT Wall Mounted Pull Up Bar",
                 
                 price:"2999 INR",
@@ -40,7 +40,7 @@ export default function BestSellers() {
             },
             {
                 key:"5",
-                images:"./images/leeway.jpg",
+                images:require("./../images/leeway.jpg"),
                 title:"LEEWAY LAT and Lift Pulley System",
                 
                 price:"2999 INR",
@@ -49,7 +49,7 @@ export default function BestSellers() {
             },
             {
                 key:"6",
-                images:"./images/anklets.jpg",
+                images:require("./../images/anklets.jpg"),
                 title:"Ankle Weights of 0.9-4.5kg Adjustable Ankle Weights Wrist Straps",
                 price:"1524 INR",
                 sale:"",
@@ -60,7 +60,7 @@ export default function BestSellers() {
     return (
         <div>
             <div className="container pb-5">
-            <div className="bestseller row">
+            <div className="equipment row">
               {data.map((element)=>{
                   return (<div className="col-md-4 g-5">
                    <Items images={element.images} title={element.title} key={element.id} desc={element.desc} price={element.price} sale={element.sale}/>
