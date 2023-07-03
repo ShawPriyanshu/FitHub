@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FitHub/static/css/main.b25b826b.css",
-    "main.js": "/FitHub/static/js/main.71bb7856.js",
+    "main.js": "/FitHub/static/js/main.fbc95ff3.js",
     "static/js/787.21bd3d14.chunk.js": "/FitHub/static/js/787.21bd3d14.chunk.js",
     "static/media/edible.jpg": "/FitHub/static/media/edible.521e059fb9a24c17983b.jpg",
     "static/media/treadmill.jpg": "/FitHub/static/media/treadmill.526867db8dd58e615161.jpg",
@@ -27,11 +27,11 @@
     "static/media/nike.jpg": "/FitHub/static/media/nike.c9a8a7f9d689125272d8.jpg",
     "index.html": "/FitHub/index.html",
     "main.b25b826b.css.map": "/FitHub/static/css/main.b25b826b.css.map",
-    "main.71bb7856.js.map": "/FitHub/static/js/main.71bb7856.js.map",
+    "main.fbc95ff3.js.map": "/FitHub/static/js/main.fbc95ff3.js.map",
     "787.21bd3d14.chunk.js.map": "/FitHub/static/js/787.21bd3d14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b25b826b.css",
-    "static/js/main.71bb7856.js"
+    "static/js/main.fbc95ff3.js"
   ]
 }
