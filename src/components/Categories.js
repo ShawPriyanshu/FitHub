@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import CategoryList from './CategoryList'
 import BestSellers from './BestSellers'
 import Equipments from './Equipments'
@@ -7,7 +7,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
 
 export default function Categories() {
@@ -18,10 +18,10 @@ export default function Categories() {
       <Router>
         <CategoryList />
         
-        <BestSellers />
+        
         <Switch>
         
-        <Route exact path="/bestsellers">
+        <Route exact path="/categories">
             <BestSellers />
           </Route>
           <Route exact path="/equipments">

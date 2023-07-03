@@ -29,8 +29,8 @@ export default function Testtimonials() {
     const len = testimonials.length;
    
     return (
-        <div style={{height:"100vh"}}>
-            <div className="testimonials" style={{ paddingTop: "10rem"}}>
+        <div>
+            <div className="testimonials">
                 <div className="left-t">
                     <span>Testimonials</span><span style={{ color: "transparent", WebkitTextStrokeColor: "#301934", WebkitTextStrokeWidth: "4px" }}>What they</span><span>say about us</span>
                     <span>{testimonials[selected].review}</span>
