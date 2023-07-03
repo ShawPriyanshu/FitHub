@@ -35,7 +35,7 @@ export default function Hero() {
 
                     </div>
                     <div className="counter">
-                        <h5 style={{ color: "white", fontFamily: "Times New Roman" }}>We are a growing community of <span style={{ color: "#301934", fontSize: "28px" }}>add live counting </span>fitness enthusiasts at present</h5>
+                        <h5 style={{ color: "white", fontFamily: "Times New Roman" }}>We are a growing community of  <span style={{ color: "purple", fontSize: "28px" }}>  7000+ </span>fitness enthusiasts at present</h5>
                     </div>
 
 
