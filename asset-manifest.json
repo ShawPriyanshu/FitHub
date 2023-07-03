@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/FitHub/static/css/main.b25b826b.css",
+    "main.js": "/FitHub/static/js/main.71bb7856.js",
+    "static/js/787.21bd3d14.chunk.js": "/FitHub/static/js/787.21bd3d14.chunk.js",
+    "static/media/edible.jpg": "/FitHub/static/media/edible.521e059fb9a24c17983b.jpg",
+    "static/media/treadmill.jpg": "/FitHub/static/media/treadmill.526867db8dd58e615161.jpg",
+    "static/media/probar.jpg": "/FitHub/static/media/probar.844759d2989bcdd0cc39.jpg",
+    "static/media/proteinatta.jpg": "/FitHub/static/media/proteinatta.77c6f689fdb07f40f0f9.jpg",
+    "static/media/builder.png": "/FitHub/static/media/builder.b20144ccc3951357e63b.png",
+    "static/media/whey2.jpg": "/FitHub/static/media/whey2.07297214fa60b7ae295f.jpg",
+    "static/media/pullup.jpg": "/FitHub/static/media/pullup.1aa8340d9cf6a4bc3aa7.jpg",
+    "static/media/tot.jpg": "/FitHub/static/media/tot.3d79ed5292cda4a9f2c3.jpg",
+    "static/media/whey.jpg": "/FitHub/static/media/whey.f2145644a56858cd2531.jpg",
+    "static/media/veganprotein.jpg": "/FitHub/static/media/veganprotein.7e541d1f4cf26e93258e.jpg",
+    "static/media/prochip.jpg": "/FitHub/static/media/prochip.cfd193ed06d39f1635a8.jpg",
+    "static/media/parbar.jpg": "/FitHub/static/media/parbar.e939eb75b573f0072420.jpg",
+    "static/media/anklets.jpg": "/FitHub/static/media/anklets.b65d04199f2b0547a1ec.jpg",
+    "static/media/dumbbells.jpg": "/FitHub/static/media/dumbbells.493e1c9bdd627cd338ad.jpg",
+    "static/media/person1.jpg": "/FitHub/static/media/person1.5d2fcfef70943d68fe80.jpg",
+    "static/media/FitHublogo.png": "/FitHub/static/media/FitHublogo.5174745772ef4d543a93.png",
+    "static/media/reebok.png": "/FitHub/static/media/reebok.e1feabb637f060626992.png",
+    "static/media/adidas.jpg": "/FitHub/static/media/adidas.7ba3da2910ea99c36429.jpg",
+    "static/media/person4.jpg": "/FitHub/static/media/person4.8b18186ef6d8ab44c0c3.jpg",
+    "static/media/person2.jpg": "/FitHub/static/media/person2.a0cdac71f4b1c63e0d8c.jpg",
+    "static/media/person3.jpg": "/FitHub/static/media/person3.e0e15644ba7b9a65c35e.jpg",
+    "static/media/nike.jpg": "/FitHub/static/media/nike.c9a8a7f9d689125272d8.jpg",
+    "index.html": "/FitHub/index.html",
+    "main.b25b826b.css.map": "/FitHub/static/css/main.b25b826b.css.map",
+    "main.71bb7856.js.map": "/FitHub/static/js/main.71bb7856.js.map",
+    "787.21bd3d14.chunk.js.map": "/FitHub/static/js/787.21bd3d14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b25b826b.css",
+    "static/js/main.71bb7856.js"
+  ]
+}
